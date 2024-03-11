@@ -46,12 +46,16 @@ prontuario = "SP002"
 print(prontuario in prontuarios) #true
 
 #sim, não, talvez
-opcao = " "
+opcao = ""
 
 if opcao == "sim" or opcao == "não" or opcao == "talvez":
-    print("opção válida")
+    print("Opção Valida")
+else: 
+    print("Opcao Invalida")
+
+opcoes = ("sim", "nao", "talve")
+
+if opcao in opcoes:
+    print("Opção Valida")
 else:
-    print("opção inválida")
-
-
-#if opcao in 
+    print("Opcão Invalida")
