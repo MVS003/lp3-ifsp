@@ -1,4 +1,5 @@
-'''Ex04 - O código identificador de funcionários de uma empresa contém 7 caracteres, inicia com a sequência de caracteres BR, em seguida apresenta um número inteiro entre 0001 e 9999 e finaliza com o caractere X.
+'''Ex04 - O codigo de funcionários de uma empresa contém 7 caracteres,
+ inicia com a sequência de caracteres BR, em seguida apresenta um número inteiro entre 0001 e 9999 e finaliza com o caractere X.
 
 Exemplos válidos:
 
@@ -15,3 +16,8 @@ Exemplos inválidos:
     
 Crie uma função em Python que implementa essa verificação'''
     
+def verificacao(codigo):
+    if len(codigo) == 7 and codigo[0:2] == "BR" and codigo[2:6].isnumeric() and codigo[6] == "X":
+        print("Código válido")
+    else:
+        print("Código inválido")
