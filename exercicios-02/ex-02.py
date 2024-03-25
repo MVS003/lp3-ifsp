@@ -3,13 +3,12 @@
 numero = float(input("Digite o número: "))
 
 def tabuada(numero):
-   multiplicador = 0
+   multiplicador = 1
 
    while multiplicador >0 and multiplicador <11:
         resultado = numero * multiplicador
         print(f"{numero} x {multiplicador} = {resultado}")
         multiplicador +=1
         
-   
-tabuada()
+tabuada(numero)
     
