@@ -1,7 +1,7 @@
 '''Ex04 - Simulador de Eleições: Crie um programa que simule uma votação com três candidatos.
 O programa deve pedir ao usuário para votar várias vezes e, no final, mostrar o número de votos de cada candidato e quem foi o vencedor.
 '''
-#não concluido
+#não concluído
 print("Digite 1 para votar no candidato A \nDigite 2 para votar no candidato B \nDigite 3 para votar no candidato C")
 print("Vote várias vezes em quantos candidatos quiser, ao finalizar digite 0")
 
@@ -32,5 +32,3 @@ def votacao():
     print("Número de votos no candidato C:", c)
 
 votacao()
-
-
